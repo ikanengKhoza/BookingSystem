@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./AvailableAppointments.css"
 
 const AvailableAppointments = () => {
   const [data, setData] = useState([]);
@@ -11,12 +12,12 @@ const AvailableAppointments = () => {
 
   return (
     <>
-      <h2>Dashboard</h2>
+      <h2>John Doe's Dashbord</h2>
       <h4>Appointmens</h4>
       {data.map((app) => {
         return (
           <>
-            <div>
+            <div className="card">
               <p>{app.firstName}</p>
               <p>{app.lastName}</p>
               <span>{app.appDate}</span>

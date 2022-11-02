@@ -1,4 +1,5 @@
 import React from "react";
+import "bootswatch/dist/lux/bootstrap.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import AvailableAppointments from "./AvailableAppointments";
 import Mentor from "./Mentor";
@@ -12,17 +13,11 @@ function App() {
             <nav>
               <h1 className="title">Calender App</h1>
               <div className="nav--links">
-                <Link
-                  to="available"
-                  className="button is-success is-outlined home"
-                >
-                  Dashbord
+                <Link to="mentor" className="btn btn-info">
+                  Book
                 </Link>
-                <Link
-                  to="mentor"
-                  className="button is-success is-outlined home"
-                >
-                  Book Appointment
+                <Link to="available" className="btn btn-light">
+                  Dashbord
                 </Link>
               </div>
             </nav>

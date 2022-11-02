@@ -9,6 +9,7 @@
     "@testing-library/user-event": "^13.5.0",
     "ajv": "^8.11.0",
     "bootstrap": "^5.2.2",
+    "bootswatch": "^5.2.2",
     "react": "^18.2.0",
     "react-availability-calendar": "^0.3.13",
     "react-bootstrap": "^2.5.0",

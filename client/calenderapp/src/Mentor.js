@@ -9,7 +9,7 @@ function Appointments() {
   const [showTime, setShowTime] = useState(false);
 
   return (
-    <div className="app">
+    <div >
       <div>
         <p>Selected date: {date.toString()}</p>
         <Time showTime={showTime} date={date} />
